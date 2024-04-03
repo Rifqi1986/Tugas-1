@@ -14,3 +14,16 @@ function bilanganGenap(input) {
 }
 
 console.log(bilanganGenap(6))
+
+//sebuah fungsi untuk menghitung luas lingkaran
+
+const   PI = Math.PI
+const r = 2
+
+function luasLingkaran (PI,r) {
+ result = PI * r * r
+ return result
+}
+
+
+console.log(luasLingkaran(7))
